@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/lukaszgolojuch/PlaywrightTests,', branch:'main'
+                git url: 'https://github.com/lukaszgolojuch/PlaywrightTests', branch:'main'
             }
         }
 
